@@ -23,6 +23,7 @@
 		2AFB7F30186BF9D90057E652 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB7F0C186BF9D90057E652 /* UIKit.framework */; };
 		2AFB7F38186BF9D90057E652 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AFB7F36186BF9D90057E652 /* InfoPlist.strings */; };
 		2AFB7F3A186BF9D90057E652 /* JigDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB7F39186BF9D90057E652 /* JigDrawTests.m */; };
+		2AFB7F44186C00EF0057E652 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 2AFB7F43186C00EF0057E652 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		2AFB7F35186BF9D90057E652 /* JigDrawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JigDrawTests-Info.plist"; sourceTree = "<group>"; };
 		2AFB7F37186BF9D90057E652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2AFB7F39186BF9D90057E652 /* JigDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JigDrawTests.m; sourceTree = "<group>"; };
+		2AFB7F43186C00EF0057E652 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		2AFB7EFC186BF9D90057E652 = {
 			isa = PBXGroup;
 			children = (
+				2AFB7F43186C00EF0057E652 /* readme.md */,
 				2AFB7F0E186BF9D90057E652 /* JigDraw */,
 				2AFB7F33186BF9D90057E652 /* JigDrawTests */,
 				2AFB7F07186BF9D90057E652 /* Frameworks */,
@@ -239,6 +242,7 @@
 				2AFB7F1F186BF9D90057E652 /* Main_iPad.storyboard in Resources */,
 				2AFB7F27186BF9D90057E652 /* Images.xcassets in Resources */,
 				2AFB7F1C186BF9D90057E652 /* Main_iPhone.storyboard in Resources */,
+				2AFB7F44186C00EF0057E652 /* readme.md in Resources */,
 				2AFB7F13186BF9D90057E652 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
