@@ -89,6 +89,7 @@
 		2AFB7EFC186BF9D90057E652 = {
 			isa = PBXGroup;
 			children = (
+				2AFB7F45186C02260057E652 /* documentation */,
 				2AFB7F43186C00EF0057E652 /* readme.md */,
 				2AFB7F0E186BF9D90057E652 /* JigDraw */,
 				2AFB7F33186BF9D90057E652 /* JigDrawTests */,
@@ -161,6 +162,21 @@
 				2AFB7F36186BF9D90057E652 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AFB7F45186C02260057E652 /* documentation */ = {
+			isa = PBXGroup;
+			children = (
+				2AFB7F46186C02410057E652 /* screenshots */,
+			);
+			name = documentation;
+			sourceTree = "<group>";
+		};
+		2AFB7F46186C02410057E652 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
