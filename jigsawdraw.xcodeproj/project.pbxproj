@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C26F6FD020A1271400D23C44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26F6FCF20A1271400D23C44 /* AppDelegate.swift */; };
+		C26F6FD220A1271400D23C44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26F6FD120A1271400D23C44 /* ViewController.swift */; };
+		C26F6FD520A1271400D23C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26F6FD320A1271400D23C44 /* Main.storyboard */; };
+		C26F6FD820A1271400D23C44 /* jigsawdraw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C26F6FD620A1271400D23C44 /* jigsawdraw.xcdatamodeld */; };
+		C26F6FDA20A1271400D23C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26F6FD920A1271400D23C44 /* Assets.xcassets */; };
+		C26F6FDD20A1271500D23C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26F6FDB20A1271500D23C44 /* LaunchScreen.storyboard */; };
+		C26F6FE820A1271500D23C44 /* jigsawdrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26F6FE720A1271500D23C44 /* jigsawdrawTests.swift */; };
+		C26F6FF320A1271500D23C44 /* jigsawdrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26F6FF220A1271500D23C44 /* jigsawdrawUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C26F6FE420A1271500D23C44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26F6FC420A1271400D23C44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26F6FCB20A1271400D23C44;
+			remoteInfo = jigsawdraw;
+		};
+		C26F6FEF20A1271500D23C44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26F6FC420A1271400D23C44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26F6FCB20A1271400D23C44;
+			remoteInfo = jigsawdraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C26F6FCC20A1271400D23C44 /* jigsawdraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jigsawdraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26F6FCF20A1271400D23C44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C26F6FD120A1271400D23C44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C26F6FD420A1271400D23C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C26F6FD720A1271400D23C44 /* jigsawdraw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jigsawdraw.xcdatamodel; sourceTree = "<group>"; };
+		C26F6FD920A1271400D23C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C26F6FDC20A1271500D23C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C26F6FDE20A1271500D23C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26F6FE320A1271500D23C44 /* jigsawdrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jigsawdrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26F6FE720A1271500D23C44 /* jigsawdrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jigsawdrawTests.swift; sourceTree = "<group>"; };
+		C26F6FE920A1271500D23C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26F6FEE20A1271500D23C44 /* jigsawdrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jigsawdrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26F6FF220A1271500D23C44 /* jigsawdrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jigsawdrawUITests.swift; sourceTree = "<group>"; };
+		C26F6FF420A1271500D23C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C26F6FC920A1271400D23C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26F6FE020A1271500D23C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26F6FEB20A1271500D23C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C26F6FC320A1271400D23C44 = {
+			isa = PBXGroup;
+			children = (
+				C26F6FCE20A1271400D23C44 /* jigsawdraw */,
+				C26F6FE620A1271500D23C44 /* jigsawdrawTests */,
+				C26F6FF120A1271500D23C44 /* jigsawdrawUITests */,
+				C26F6FCD20A1271400D23C44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C26F6FCD20A1271400D23C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26F6FCC20A1271400D23C44 /* jigsawdraw.app */,
+				C26F6FE320A1271500D23C44 /* jigsawdrawTests.xctest */,
+				C26F6FEE20A1271500D23C44 /* jigsawdrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26F6FCE20A1271400D23C44 /* jigsawdraw */ = {
+			isa = PBXGroup;
+			children = (
+				C26F6FCF20A1271400D23C44 /* AppDelegate.swift */,
+				C26F6FD120A1271400D23C44 /* ViewController.swift */,
+				C26F6FD320A1271400D23C44 /* Main.storyboard */,
+				C26F6FD920A1271400D23C44 /* Assets.xcassets */,
+				C26F6FDB20A1271500D23C44 /* LaunchScreen.storyboard */,
+				C26F6FDE20A1271500D23C44 /* Info.plist */,
+				C26F6FD620A1271400D23C44 /* jigsawdraw.xcdatamodeld */,
+			);
+			path = jigsawdraw;
+			sourceTree = "<group>";
+		};
+		C26F6FE620A1271500D23C44 /* jigsawdrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				C26F6FE720A1271500D23C44 /* jigsawdrawTests.swift */,
+				C26F6FE920A1271500D23C44 /* Info.plist */,
+			);
+			path = jigsawdrawTests;
+			sourceTree = "<group>";
+		};
+		C26F6FF120A1271500D23C44 /* jigsawdrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C26F6FF220A1271500D23C44 /* jigsawdrawUITests.swift */,
+				C26F6FF420A1271500D23C44 /* Info.plist */,
+			);
+			path = jigsawdrawUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C26F6FCB20A1271400D23C44 /* jigsawdraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26F6FF720A1271500D23C44 /* Build configuration list for PBXNativeTarget "jigsawdraw" */;
+			buildPhases = (
+				C26F6FC820A1271400D23C44 /* Sources */,
+				C26F6FC920A1271400D23C44 /* Frameworks */,
+				C26F6FCA20A1271400D23C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jigsawdraw;
+			productName = jigsawdraw;
+			productReference = C26F6FCC20A1271400D23C44 /* jigsawdraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C26F6FE220A1271500D23C44 /* jigsawdrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26F6FFA20A1271500D23C44 /* Build configuration list for PBXNativeTarget "jigsawdrawTests" */;
+			buildPhases = (
+				C26F6FDF20A1271500D23C44 /* Sources */,
+				C26F6FE020A1271500D23C44 /* Frameworks */,
+				C26F6FE120A1271500D23C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C26F6FE520A1271500D23C44 /* PBXTargetDependency */,
+			);
+			name = jigsawdrawTests;
+			productName = jigsawdrawTests;
+			productReference = C26F6FE320A1271500D23C44 /* jigsawdrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C26F6FED20A1271500D23C44 /* jigsawdrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26F6FFD20A1271500D23C44 /* Build configuration list for PBXNativeTarget "jigsawdrawUITests" */;
+			buildPhases = (
+				C26F6FEA20A1271500D23C44 /* Sources */,
+				C26F6FEB20A1271500D23C44 /* Frameworks */,
+				C26F6FEC20A1271500D23C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C26F6FF020A1271500D23C44 /* PBXTargetDependency */,
+			);
+			name = jigsawdrawUITests;
+			productName = jigsawdrawUITests;
+			productReference = C26F6FEE20A1271500D23C44 /* jigsawdrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C26F6FC420A1271400D23C44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jay Paulynice";
+				TargetAttributes = {
+					C26F6FCB20A1271400D23C44 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C26F6FE220A1271500D23C44 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C26F6FCB20A1271400D23C44;
+					};
+					C26F6FED20A1271500D23C44 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C26F6FCB20A1271400D23C44;
+					};
+				};
+			};
+			buildConfigurationList = C26F6FC720A1271400D23C44 /* Build configuration list for PBXProject "jigsawdraw" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C26F6FC320A1271400D23C44;
+			productRefGroup = C26F6FCD20A1271400D23C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C26F6FCB20A1271400D23C44 /* jigsawdraw */,
+				C26F6FE220A1271500D23C44 /* jigsawdrawTests */,
+				C26F6FED20A1271500D23C44 /* jigsawdrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C26F6FCA20A1271400D23C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26F6FDD20A1271500D23C44 /* LaunchScreen.storyboard in Resources */,
+				C26F6FDA20A1271400D23C44 /* Assets.xcassets in Resources */,
+				C26F6FD520A1271400D23C44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26F6FE120A1271500D23C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26F6FEC20A1271500D23C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C26F6FC820A1271400D23C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26F6FD220A1271400D23C44 /* ViewController.swift in Sources */,
+				C26F6FD020A1271400D23C44 /* AppDelegate.swift in Sources */,
+				C26F6FD820A1271400D23C44 /* jigsawdraw.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26F6FDF20A1271500D23C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26F6FE820A1271500D23C44 /* jigsawdrawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26F6FEA20A1271500D23C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26F6FF320A1271500D23C44 /* jigsawdrawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C26F6FE520A1271500D23C44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C26F6FCB20A1271400D23C44 /* jigsawdraw */;
+			targetProxy = C26F6FE420A1271500D23C44 /* PBXContainerItemProxy */;
+		};
+		C26F6FF020A1271500D23C44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C26F6FCB20A1271400D23C44 /* jigsawdraw */;
+			targetProxy = C26F6FEF20A1271500D23C44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C26F6FD320A1271400D23C44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C26F6FD420A1271400D23C44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C26F6FDB20A1271500D23C44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C26F6FDC20A1271500D23C44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C26F6FF520A1271500D23C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C26F6FF620A1271500D23C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C26F6FF820A1271500D23C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94TJR33AUE;
+				INFOPLIST_FILE = jigsawdraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jigsawdraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C26F6FF920A1271500D23C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94TJR33AUE;
+				INFOPLIST_FILE = jigsawdraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jigsawdraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C26F6FFB20A1271500D23C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94TJR33AUE;
+				INFOPLIST_FILE = jigsawdrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jigsawdrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jigsawdraw.app/jigsawdraw";
+			};
+			name = Debug;
+		};
+		C26F6FFC20A1271500D23C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94TJR33AUE;
+				INFOPLIST_FILE = jigsawdrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jigsawdrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jigsawdraw.app/jigsawdraw";
+			};
+			name = Release;
+		};
+		C26F6FFE20A1271500D23C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94TJR33AUE;
+				INFOPLIST_FILE = jigsawdrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jigsawdrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jigsawdraw;
+			};
+			name = Debug;
+		};
+		C26F6FFF20A1271500D23C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94TJR33AUE;
+				INFOPLIST_FILE = jigsawdrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jigsawdrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jigsawdraw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C26F6FC720A1271400D23C44 /* Build configuration list for PBXProject "jigsawdraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26F6FF520A1271500D23C44 /* Debug */,
+				C26F6FF620A1271500D23C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26F6FF720A1271500D23C44 /* Build configuration list for PBXNativeTarget "jigsawdraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26F6FF820A1271500D23C44 /* Debug */,
+				C26F6FF920A1271500D23C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26F6FFA20A1271500D23C44 /* Build configuration list for PBXNativeTarget "jigsawdrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26F6FFB20A1271500D23C44 /* Debug */,
+				C26F6FFC20A1271500D23C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26F6FFD20A1271500D23C44 /* Build configuration list for PBXNativeTarget "jigsawdrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26F6FFE20A1271500D23C44 /* Debug */,
+				C26F6FFF20A1271500D23C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C26F6FD620A1271400D23C44 /* jigsawdraw.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C26F6FD720A1271400D23C44 /* jigsawdraw.xcdatamodel */,
+			);
+			currentVersion = C26F6FD720A1271400D23C44 /* jigsawdraw.xcdatamodel */;
+			path = jigsawdraw.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C26F6FC420A1271400D23C44 /* Project object */;
+}
