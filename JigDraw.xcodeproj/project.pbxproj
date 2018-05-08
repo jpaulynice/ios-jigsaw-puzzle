@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AFB7F09186BF9D90057E652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB7F08186BF9D90057E652 /* Foundation.framework */; };
+		2AFB7F0B186BF9D90057E652 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB7F0A186BF9D90057E652 /* CoreGraphics.framework */; };
+		2AFB7F0D186BF9D90057E652 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB7F0C186BF9D90057E652 /* UIKit.framework */; };
+		2AFB7F13186BF9D90057E652 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AFB7F11186BF9D90057E652 /* InfoPlist.strings */; };
+		2AFB7F15186BF9D90057E652 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB7F14186BF9D90057E652 /* main.m */; };
+		2AFB7F19186BF9D90057E652 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB7F18186BF9D90057E652 /* AppDelegate.m */; };
+		2AFB7F1C186BF9D90057E652 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFB7F1A186BF9D90057E652 /* Main_iPhone.storyboard */; };
+		2AFB7F1F186BF9D90057E652 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFB7F1D186BF9D90057E652 /* Main_iPad.storyboard */; };
+		2AFB7F22186BF9D90057E652 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB7F21186BF9D90057E652 /* MasterViewController.m */; };
+		2AFB7F25186BF9D90057E652 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB7F24186BF9D90057E652 /* DetailViewController.m */; };
+		2AFB7F27186BF9D90057E652 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFB7F26186BF9D90057E652 /* Images.xcassets */; };
+		2AFB7F2E186BF9D90057E652 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB7F2D186BF9D90057E652 /* XCTest.framework */; };
+		2AFB7F2F186BF9D90057E652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB7F08186BF9D90057E652 /* Foundation.framework */; };
+		2AFB7F30186BF9D90057E652 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFB7F0C186BF9D90057E652 /* UIKit.framework */; };
+		2AFB7F38186BF9D90057E652 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AFB7F36186BF9D90057E652 /* InfoPlist.strings */; };
+		2AFB7F3A186BF9D90057E652 /* JigDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB7F39186BF9D90057E652 /* JigDrawTests.m */; };
+		2AFB7F44186C00EF0057E652 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 2AFB7F43186C00EF0057E652 /* readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AFB7F31186BF9D90057E652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AFB7EFD186BF9D90057E652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFB7F04186BF9D90057E652;
+			remoteInfo = JigDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AFB7F05186BF9D90057E652 /* JigDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFB7F08186BF9D90057E652 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2AFB7F0A186BF9D90057E652 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AFB7F0C186BF9D90057E652 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2AFB7F10186BF9D90057E652 /* JigDraw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JigDraw-Info.plist"; sourceTree = "<group>"; };
+		2AFB7F12186BF9D90057E652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AFB7F14186BF9D90057E652 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AFB7F16186BF9D90057E652 /* JigDraw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JigDraw-Prefix.pch"; sourceTree = "<group>"; };
+		2AFB7F17186BF9D90057E652 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AFB7F18186BF9D90057E652 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AFB7F1B186BF9D90057E652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2AFB7F1E186BF9D90057E652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		2AFB7F20186BF9D90057E652 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2AFB7F21186BF9D90057E652 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2AFB7F23186BF9D90057E652 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2AFB7F24186BF9D90057E652 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2AFB7F26186BF9D90057E652 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2AFB7F2C186BF9D90057E652 /* JigDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JigDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFB7F2D186BF9D90057E652 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2AFB7F35186BF9D90057E652 /* JigDrawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JigDrawTests-Info.plist"; sourceTree = "<group>"; };
+		2AFB7F37186BF9D90057E652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AFB7F39186BF9D90057E652 /* JigDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JigDrawTests.m; sourceTree = "<group>"; };
+		2AFB7F43186C00EF0057E652 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AFB7F02186BF9D90057E652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFB7F0B186BF9D90057E652 /* CoreGraphics.framework in Frameworks */,
+				2AFB7F0D186BF9D90057E652 /* UIKit.framework in Frameworks */,
+				2AFB7F09186BF9D90057E652 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFB7F29186BF9D90057E652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFB7F2E186BF9D90057E652 /* XCTest.framework in Frameworks */,
+				2AFB7F30186BF9D90057E652 /* UIKit.framework in Frameworks */,
+				2AFB7F2F186BF9D90057E652 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AFB7EFC186BF9D90057E652 = {
+			isa = PBXGroup;
+			children = (
+				2AFB7F45186C02260057E652 /* documentation */,
+				2AFB7F43186C00EF0057E652 /* readme.md */,
+				2AFB7F0E186BF9D90057E652 /* JigDraw */,
+				2AFB7F33186BF9D90057E652 /* JigDrawTests */,
+				2AFB7F07186BF9D90057E652 /* Frameworks */,
+				2AFB7F06186BF9D90057E652 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AFB7F06186BF9D90057E652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AFB7F05186BF9D90057E652 /* JigDraw.app */,
+				2AFB7F2C186BF9D90057E652 /* JigDrawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AFB7F07186BF9D90057E652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AFB7F08186BF9D90057E652 /* Foundation.framework */,
+				2AFB7F0A186BF9D90057E652 /* CoreGraphics.framework */,
+				2AFB7F0C186BF9D90057E652 /* UIKit.framework */,
+				2AFB7F2D186BF9D90057E652 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AFB7F0E186BF9D90057E652 /* JigDraw */ = {
+			isa = PBXGroup;
+			children = (
+				2AFB7F17186BF9D90057E652 /* AppDelegate.h */,
+				2AFB7F18186BF9D90057E652 /* AppDelegate.m */,
+				2AFB7F1A186BF9D90057E652 /* Main_iPhone.storyboard */,
+				2AFB7F1D186BF9D90057E652 /* Main_iPad.storyboard */,
+				2AFB7F20186BF9D90057E652 /* MasterViewController.h */,
+				2AFB7F21186BF9D90057E652 /* MasterViewController.m */,
+				2AFB7F23186BF9D90057E652 /* DetailViewController.h */,
+				2AFB7F24186BF9D90057E652 /* DetailViewController.m */,
+				2AFB7F26186BF9D90057E652 /* Images.xcassets */,
+				2AFB7F0F186BF9D90057E652 /* Supporting Files */,
+			);
+			path = JigDraw;
+			sourceTree = "<group>";
+		};
+		2AFB7F0F186BF9D90057E652 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AFB7F10186BF9D90057E652 /* JigDraw-Info.plist */,
+				2AFB7F11186BF9D90057E652 /* InfoPlist.strings */,
+				2AFB7F14186BF9D90057E652 /* main.m */,
+				2AFB7F16186BF9D90057E652 /* JigDraw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AFB7F33186BF9D90057E652 /* JigDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AFB7F39186BF9D90057E652 /* JigDrawTests.m */,
+				2AFB7F34186BF9D90057E652 /* Supporting Files */,
+			);
+			path = JigDrawTests;
+			sourceTree = "<group>";
+		};
+		2AFB7F34186BF9D90057E652 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AFB7F35186BF9D90057E652 /* JigDrawTests-Info.plist */,
+				2AFB7F36186BF9D90057E652 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AFB7F45186C02260057E652 /* documentation */ = {
+			isa = PBXGroup;
+			children = (
+				2AFB7F46186C02410057E652 /* screenshots */,
+			);
+			name = documentation;
+			sourceTree = "<group>";
+		};
+		2AFB7F46186C02410057E652 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = screenshots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AFB7F04186BF9D90057E652 /* JigDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFB7F3D186BF9D90057E652 /* Build configuration list for PBXNativeTarget "JigDraw" */;
+			buildPhases = (
+				2AFB7F01186BF9D90057E652 /* Sources */,
+				2AFB7F02186BF9D90057E652 /* Frameworks */,
+				2AFB7F03186BF9D90057E652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JigDraw;
+			productName = JigDraw;
+			productReference = 2AFB7F05186BF9D90057E652 /* JigDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AFB7F2B186BF9D90057E652 /* JigDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFB7F40186BF9D90057E652 /* Build configuration list for PBXNativeTarget "JigDrawTests" */;
+			buildPhases = (
+				2AFB7F28186BF9D90057E652 /* Sources */,
+				2AFB7F29186BF9D90057E652 /* Frameworks */,
+				2AFB7F2A186BF9D90057E652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AFB7F32186BF9D90057E652 /* PBXTargetDependency */,
+			);
+			name = JigDrawTests;
+			productName = JigDrawTests;
+			productReference = 2AFB7F2C186BF9D90057E652 /* JigDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AFB7EFD186BF9D90057E652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jules Jay Paulynice";
+				TargetAttributes = {
+					2AFB7F2B186BF9D90057E652 = {
+						TestTargetID = 2AFB7F04186BF9D90057E652;
+					};
+				};
+			};
+			buildConfigurationList = 2AFB7F00186BF9D90057E652 /* Build configuration list for PBXProject "JigDraw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AFB7EFC186BF9D90057E652;
+			productRefGroup = 2AFB7F06186BF9D90057E652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AFB7F04186BF9D90057E652 /* JigDraw */,
+				2AFB7F2B186BF9D90057E652 /* JigDrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AFB7F03186BF9D90057E652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFB7F1F186BF9D90057E652 /* Main_iPad.storyboard in Resources */,
+				2AFB7F27186BF9D90057E652 /* Images.xcassets in Resources */,
+				2AFB7F1C186BF9D90057E652 /* Main_iPhone.storyboard in Resources */,
+				2AFB7F44186C00EF0057E652 /* readme.md in Resources */,
+				2AFB7F13186BF9D90057E652 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFB7F2A186BF9D90057E652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFB7F38186BF9D90057E652 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AFB7F01186BF9D90057E652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFB7F19186BF9D90057E652 /* AppDelegate.m in Sources */,
+				2AFB7F22186BF9D90057E652 /* MasterViewController.m in Sources */,
+				2AFB7F15186BF9D90057E652 /* main.m in Sources */,
+				2AFB7F25186BF9D90057E652 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFB7F28186BF9D90057E652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFB7F3A186BF9D90057E652 /* JigDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AFB7F32186BF9D90057E652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AFB7F04186BF9D90057E652 /* JigDraw */;
+			targetProxy = 2AFB7F31186BF9D90057E652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AFB7F11186BF9D90057E652 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFB7F12186BF9D90057E652 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AFB7F1A186BF9D90057E652 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFB7F1B186BF9D90057E652 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2AFB7F1D186BF9D90057E652 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFB7F1E186BF9D90057E652 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2AFB7F36186BF9D90057E652 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFB7F37186BF9D90057E652 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AFB7F3B186BF9D90057E652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AFB7F3C186BF9D90057E652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AFB7F3E186BF9D90057E652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JigDraw/JigDraw-Prefix.pch";
+				INFOPLIST_FILE = "JigDraw/JigDraw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2AFB7F3F186BF9D90057E652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JigDraw/JigDraw-Prefix.pch";
+				INFOPLIST_FILE = "JigDraw/JigDraw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2AFB7F41186BF9D90057E652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JigDraw.app/JigDraw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JigDraw/JigDraw-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JigDrawTests/JigDrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2AFB7F42186BF9D90057E652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JigDraw.app/JigDraw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JigDraw/JigDraw-Prefix.pch";
+				INFOPLIST_FILE = "JigDrawTests/JigDrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AFB7F00186BF9D90057E652 /* Build configuration list for PBXProject "JigDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFB7F3B186BF9D90057E652 /* Debug */,
+				2AFB7F3C186BF9D90057E652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFB7F3D186BF9D90057E652 /* Build configuration list for PBXNativeTarget "JigDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFB7F3E186BF9D90057E652 /* Debug */,
+				2AFB7F3F186BF9D90057E652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AFB7F40186BF9D90057E652 /* Build configuration list for PBXNativeTarget "JigDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFB7F41186BF9D90057E652 /* Debug */,
+				2AFB7F42186BF9D90057E652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AFB7EFD186BF9D90057E652 /* Project object */;
+}
